@@ -70,8 +70,7 @@ function progress(){const n=cards.filter(answered).length,p=Math.round(n/cards.l
 form.addEventListener('change',progress);
 
 // URL DEL GOOGLE APPS SCRIPT (Reemplazar después de publicar tu Web App)
-const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbw7vheXzq6Exzj7iW7c5JSa-KV8hVBSpuFAvm5_RYMnRdqj92Q8HK3KjZhTNzP2nv9E/exec;
-
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbw7vheXzq6Exzj7iW7c5JSa-KV8hVBSpuFAvm5_RYMnRdqj92Q8HK3KjZhTNzP2nv9E/exec';
 form.addEventListener('submit',e=>{
   e.preventDefault();
   let bad=null;
